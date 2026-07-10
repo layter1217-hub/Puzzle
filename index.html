@@ -402,13 +402,15 @@ Ama hayatımın en güzel parçası hep sendin ❤️
 
 draw();
 
-shuffle();
 const startBtn=document.getElementById("startBtn");
 const intro=document.getElementById("intro");
 
 startBtn.onclick=()=>{
-
 intro.style.display="none";
+
+setTimeout(()=>{
+    shuffle();
+},500);
 
 };
 </script>
