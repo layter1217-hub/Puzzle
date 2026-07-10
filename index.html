@@ -49,9 +49,18 @@ overflow:hidden;
 }
 
 .tile{
+background-image:url.tile{
 background-image:url("c35a3df7-4083-4f0d-8593-a1531238e861.jpeg");
 background-size:300% 300%;
+background-repeat:no-repeat;
 cursor:pointer;
+transition:transform .2s, filter .2s;
+}
+
+.tile:hover{
+transform:scale(1.03);
+filter:brightness(1.1);
+}
 }
 
 .empty{
